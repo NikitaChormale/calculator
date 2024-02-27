@@ -8,14 +8,14 @@
     .calculator-body{
         height: 400px;
         width: 300px;
-        background-color:black;
+        background-color:rgb(7, 13, 36);
         margin: 20px auto;
         padding: 20px;
         border-radius: 10px;
         padding-top: 40px;
     }
     .calculator-screen{
-        background-color: rgb(141, 59, 59);
+        background-color: rgb(102, 145, 63);
         width: 280px;
         display: block;
         margin: 0px auto;
@@ -53,13 +53,16 @@
     .btn:hover{
         box-shadow: 0px 0px 5px 0px rgb(219, 218, 218);
     }
-    .btn-equals{
-        background-color: rgb(235, 102, 50);
+    .btn-red{
+        background-color: rgb(214, 32, 19);
         color: white;
         
     }
+    .btn-equals{
+        height: 80px;
+    }
     .btn-operators{
-        background-color: rgb(54, 114, 122);
+        background-color: rgb(26, 96, 105);
         color: white;
 
     }
@@ -69,29 +72,28 @@
     <div class="calculator-body">
         <input type="text" value="0" class="calculator-screen" />
         <div class="calculator-btn-container">
-            <button class="btn btn-equals">AC</button>
+            <button class="btn btn-red">AC</button>
             <button class="btn">7</button>
             <button class="btn">4</button>
             <button class="btn">1</button>
             <button class="btn">0</button>
 
-            <button class="btn btn-operators">(</button>
+            <button class="btn btn-operators">%</button>
             <button class="btn">8</button>
             <button class="btn">5</button>
             <button class="btn">2</button>
-            <button class="btn">.</button>
+            <button class="btn">00</button>
 
-            <button class="btn btn-operators">)</button>
+            <button class="btn btn-operators">/</button>
             <button class="btn">9</button>
             <button class="btn">6</button>
             <button class="btn">3</button>
-            <button class="btn btn-operators" >%</button>
+            <button class="btn btn-operators" >.</button>
 
-            <button class="btn btn-operators">/</button>
             <button class="btn btn-operators">X</button>
             <button class="btn btn-operators">-</button>
             <button class="btn btn-operators">+</button>
-            <button class="btn btn-equals">=</button>
+            <button class="btn btn-red btn-equals">=</button>
 
         </div>
     </div>
